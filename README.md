@@ -14,48 +14,22 @@ _Use GitHub Actions to publish your project to a Docker image._
 </header>
 
 <!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
+  <<< Author notes: Step 3 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
 -->
 
-## Welcome
+## Step 3: Merge your changes
 
-GitHub Actions makes it easier than ever to incorporate continuous delivery (CD) into your repositories. This course will teach you what is needed to test and deliver artifacts that are ready for deployment.
+_Let's get publishing! :heart:_
 
-- **Who is this for**: Developers, DevOps engineers, full stack developers, cloud engineers.
-- **What you'll learn**: Continuous delivery, how to save and access build artifacts, package management, how to publish to GitHub Packages.
-- **What you'll build**: We will build a Docker image that runs a small game.
-- **Prerequisites**: We recommend you first complete the following courses: [Hello, GitHub Actions](https://github.com/cours-esilv/hello-github-actions) and [Continuous Integration](https://github.com/cours-esilv/test-with-actions).
-- **How long**: This course takes less than 30 minutes to complete.
+You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your changes!
 
-In this course, you will:
+### :keyboard: Activity: Merge your changes
 
-1. Create a workflow
-2. Add a Dockerfile
-3. Merge your pull request
-
-### How to start this course
-
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'cours-esilv',
-  template_name: 'publish-packages',
-  owner: '@me',
-  name: 'cours-esilv-publish-packages',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=cours-esilv&template_name=publish-packages&owner=%40me&name=cours-esilv-publish-packages&description=My+clone+repository&visibility=public)
-
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. Merge your changes from `cd` into `main`. If you created the pull request in step 1, just open that PR and click on **Merge pull request**. If you did not create the pull request earlier, you can do it now by following the instructions in step 1.
+1. (optional) Delete the branch `cd`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
 
